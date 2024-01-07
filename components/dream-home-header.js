@@ -12,8 +12,8 @@ const DreamHomeHeader = memo(() => {
   }, [router]);
 
   return (
-    <header className="self-stretch flex flex-col items-center justify-start py-[120px] px-[30px] bg-[url('/hero-section@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-33xl text-gray-white font-body-regular-400">
-      <div className="self-stretch flex flex-col items-center justify-center gap-[62px] max-w-[95%]">
+    <header className=" self-stretch flex flex-col items-center justify-start py-[120px] px-[30px] bg-[url('/hero-section@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-33xl text-gray-white font-body-regular-400">
+      <div className="m-auto self-stretch flex flex-col items-center justify-center gap-[62px] max-w-[95%]">
         <div className="self-stretch flex flex-col items-center justify-start gap-[24px] md:max-w-full">
           <h1 className="m-0 self-stretch relative text-inherit leading-[72px] font-semibold font-inherit">
             Find Your Dream Home

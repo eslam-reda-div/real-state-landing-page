@@ -2,7 +2,7 @@ import { memo } from "react";
 
 const RentPropertiesContainer = memo(() => {
   return (
-    <div className="self-stretch flex flex-col items-center justify-start gap-[40px] max-w-[95%] text-center text-21xl text-primary-800 font-body-regular-600">
+    <div className="m-auto self-stretch flex flex-col items-center justify-start gap-[40px] max-w-[95%] text-center text-21xl text-primary-800 font-body-regular-600">
       <div className="w-[688px] flex flex-col items-center justify-start gap-[24px] max-w-[95%] lg:max-w-[95%] md:self-stretch md:w-auto">
         <div className="self-stretch relative leading-[48px] font-semibold">
           Latest Properties of Rent
