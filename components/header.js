@@ -1,4 +1,5 @@
 import { memo, useMemo } from "react";
+import Link from "next/link";
 
 const Header = memo(({ imageCode, hamburger, nameObjectFit }) => {
   const houseLineIconStyle = useMemo(() => {
@@ -26,11 +27,17 @@ const Header = memo(({ imageCode, hamburger, nameObjectFit }) => {
         </div>
         <div className="shrink-0 flex flex-row items-center justify-end gap-[36px] text-sm text-primary-900 sm:flex">
           <div className="shrink-0 flex flex-row items-start justify-start gap-[30px] lg:hidden">
-            <div className="relative leading-[22px]">HOME</div>
+            <div className="relative leading-[22px]">
+            <Link href="/">
+                HOME
+              </Link>
+            </div>
             <div className="relative leading-[22px]">ABOUT US</div>
             <div className="relative leading-[22px]">OUR AGENTS</div>
             <div className="relative leading-[22px] font-semibold">
-              PROPERTIES
+              <Link href="/properties">
+                PROPERTIES
+              </Link>
             </div>
             <div className="relative leading-[22px]">GALLERY</div>
             <div className="relative leading-[22px]">BLOG</div>
